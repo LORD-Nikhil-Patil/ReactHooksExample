@@ -1,0 +1,33 @@
+.list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.heading{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin: 30px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.card input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
